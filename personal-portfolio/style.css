@@ -1,0 +1,418 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  margin: auto;
+  overflow-x: hidden;
+  text-align: center;
+  background-image: url("assets/pexels-pixabay.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.text {
+  position: absolute;
+  top: 30%;
+  left: 36px;
+  transform: translate(0, -50%);
+  font-size: 55px;
+  text-shadow: 0px 0px 2px black;
+  color: white;
+}
+
+#flag {
+  display: block;
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  margin: auto;
+  border-radius: 6px;
+}
+
+#image-container {
+  background-image: url("assets/pexels-pixabay.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 40px;
+  height: 300px;
+  margin-bottom: 180px;
+}
+
+#github {
+  background: black;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.card-github {
+  background: black;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-top: -5px;
+}
+
+#contact-github {
+  background: black;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.card-max {
+  background: white;
+  width: 25px;
+  height: 25px;
+  margin-top: -1px;
+}
+
+#flag-2 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin: auto;  
+}
+
+#contact {
+  background: #0099cc;
+  padding-top: 10px;
+  padding-bottom: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#about {
+  background: white;
+  margin-top: 30px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 1px;
+}
+
+#section {
+  background: whitesmoke;
+  padding-bottom: 60px;
+  background-image: url("assets/pexels-pixabay.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  cursor: pointer;
+}
+
+.contact-color {
+  color: white;
+}
+
+#card-1 {
+  box-shadow: 2px 3px black;
+  width: 250px;
+  height: 250px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: white;
+}
+
+#card-1-color {
+  background: purple;
+  height: 100%;
+  padding-top: 70px;
+  margin-top: auto;
+  color: white;
+}
+
+#card-2 {
+  box-shadow: 2px 3px black;
+  width: 250px;
+  height: 250px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: white;
+}
+
+#card-2-color {
+  background: orange;
+  height: 100%;
+  padding-top: 70px;
+  margin-top: auto;
+  color: white;
+}
+
+#card-3 {
+  box-shadow: 2px 3px black;
+  width: 250px;
+  height: 250px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: white;
+}
+
+#card-3-color {
+  background: green;
+  height: 100%;
+  padding-top: 70px;
+  margin-top: auto;
+  color: white;
+}
+
+#card-4 {
+  box-shadow: 2px 3px black;
+  width: 250px;
+  height: 250px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: white;
+}
+
+#card-4-color {
+  background: brown;
+  height: 100%;
+  padding-top: 70px;
+  margin-top: auto;
+  color: white;
+}
+
+#card-5 {
+  box-shadow: 2px 3px black;
+  width: 250px;
+  height: 250px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: white;
+}
+
+#card-5-color {
+  background: blue;
+  height: 100%;
+  padding-top: 70px;
+  margin-top: auto;
+  color: white;
+}
+
+#card-6 {
+  box-shadow: 2px 3px black;
+  width: 250px;
+  height: 250px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: white;
+}
+
+#card-6-color {
+  background: #b80000;
+  height: 100%;
+  padding-top: 70px;
+  margin-top: auto;
+  color: white;
+}
+
+.card-paragraph {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#about-paragraph {
+  margin-top: -20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+div[id^='card']:hover {
+  cursor: pointer;
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+@media (width: 1920px) {
+  body {
+    background-image: url("assets/pexels-pixabay.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  #github-link {
+    width: 100px;
+    margin: auto;
+  }
+
+  .text {
+    position: absolute;
+    top: 20%;
+    left: 735px;
+    transform: translate(0, -50%);
+    font-size: 80px;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: column; 
+    padding: 10px;
+  }
+
+  #about-paragraph {
+    width: 20%;
+    margin: auto;
+  }
+
+  #section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 600px;
+    background-image: url("assets/pexels-pixabay.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  #flex-box-2 {
+    display: flex;
+    max-height: 500px;
+  }
+
+  #flag-2 {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  #contact {
+    width: 345%;
+    padding-top: 30px;
+  }
+
+  #github {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  #h1-work {
+    display: none;
+  }
+
+  #card-1 {
+    margin-top: 40px;
+  }
+
+  #flag {
+    width: 600px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 2560px) and (max-width: 2960px){
+  body {
+    background-image: url("assets/pexels-pixabay.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  #github-link {
+    width: 100px;
+    margin: auto;
+  }
+
+  .text {
+    position: absolute;
+    top: 18%;
+    left: 1150px;
+    transform: translate(0, -50%);
+    font-size: 120px;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: column; 
+    padding: 40px 10px;
+  }
+
+  #about-paragraph {
+    width: 20%;
+    margin: auto;
+  }
+
+  #section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 1000px;
+    background-image: url("assets/pexels-pixabay.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  #flex-box-2 {
+    display: flex;
+    max-height: 700px;
+  }
+
+  #flag-2 {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  #contact {
+    width: 225%;
+    padding-top: 120px;
+  }
+
+  #github {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  #h1-work {
+    display: none;
+  }
+
+  #card-1 {
+    margin-top: 40px;
+  }
+
+  #flag {
+    width: 800px;
+    height: 600px;
+    margin: 40px auto;
+  }
+
+  #image-container {
+    height: 600px;
+  }
+}

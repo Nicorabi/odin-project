@@ -1,0 +1,85 @@
+* {
+    border: 2px maroon;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#odin {
+    text-align: center;
+    color: gold;
+    font-weight: bolder;
+    font-size: 80px;
+    background-color: maroon;
+    margin-top: 9px;
+    width: max-content;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.lasagna {
+    font-size: 40px;
+    color: gold;
+    background-color: maroon;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#home {
+    font-size: 80px;
+    color: gold;
+    background-color: maroon;
+    text-align: center;
+    display: block;
+    width: max-content;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.las {
+    color: gold;
+    background-color: maroon;
+    font-size: 40px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.img {
+    height: auto;
+    width: 500px;
+}
+
+.desc {
+    background-color: maroon;
+    color: gold;
+    font-size: 30px;
+    width: max-content;
+    border-radius: 5px;
+    
+}
+
+.ing {
+    background-color: maroon;
+    color: gold;
+    font-size: 30px;
+    width: max-content;
+    border-radius: 5px;
+}
+
+.steps {
+    background-color: maroon;
+    color: gold;
+    font-size: 30px;
+    width: max-content;
+    border-radius: 5px;
+}
+
+.pic {
+    height: auto;
+    width: 400px;
+}
+
+p {
+    text-align: left;
+}

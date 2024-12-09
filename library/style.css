@@ -1,0 +1,79 @@
+body {
+    max-width: 800px;
+    margin: auto;
+    background: whitesmoke;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#form {
+    display: none;
+    flex-direction: column;
+    border: 2px solid  black;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    margin-left: 125px;
+}
+
+.book-card {
+    border: 1px solid black;
+    width: 200px;
+    height: 160px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 5px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+button {
+    background-color: orange;
+    color: black;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.remove-button, .toggle-read {
+    background-color: orange;
+    color: black;
+    width: 60px;
+    height: 40px;
+    margin: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+input {
+    width: 400px;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#book-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+h1 {
+    text-align: center;
+}
+
+#add-book {
+    margin-left: 360px;
+}
+
+@media only screen and (min-width: 1920px) and (max-width: 1920px) {
+    #read {
+        margin-left: -182px;
+        margin-bottom: 4px;
+    }
+}

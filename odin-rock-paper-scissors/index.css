@@ -1,0 +1,17 @@
+body {
+    box-sizing: border-box;
+    line-height: 1.6;
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: whitesmoke;
+    font-weight: bold;
+}
+
+button {
+    font-size: 1.2em;
+    background-color: bisque;
+    border-radius: 5px;
+}
